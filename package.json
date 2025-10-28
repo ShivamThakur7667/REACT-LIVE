@@ -1,0 +1,25 @@
+{
+  "name": "react-live",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamThakur7667/REACT-LIVE.git"
+  },
+  "author": "shivam kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivamThakur7667/REACT-LIVE/issues"
+  },
+  "homepage": "https://github.com/ShivamThakur7667/REACT-LIVE#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
