@@ -2,6 +2,8 @@
   "name": "react-live",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,6 +18,8 @@
   "homepage": "https://github.com/ShivamThakur7667/REACT-LIVE#readme",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.16.0"
   },
   "dependencies": {

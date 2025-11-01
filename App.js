@@ -1,29 +1,32 @@
 import React from "react";
 import ReactDom from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement(
-    "div",
-    { id: "child1", key: "child1" },
+// JSX ??
 
-    [
-      React.createElement("h1", { key: "a" }, "h1 tag"),
-      React.createElement("h2", { key: "b" }, "h2 tag"),
-    ]
-  ),
-  React.createElement(
-    "div",
-    { id: "child2", key: "child2" },
+const Title = () => (
+  <h1 id="title" key="h2">
+    Namaste Shivam React2
+  </h1>
+);
 
-    [
-      React.createElement("h1", { key: "c" }, "h1 tag"),
-      React.createElement("h2", { key: "d" }, "h2 tag"),
-    ]
-  ),
-]);
+var x = 10;
 
-console.log(parent);
+// React Component
+// -> Function based Component - new
+// -> Component name should start with Capital letter - it's not mandatory
+
+const HeaderComponent = () => {
+  return (
+    <div>
+      {/* {Title()} */}
+      {1 + 2}
+      <h1>Namaste React function component</h1>
+      <h2>This is h2 tag</h2>
+    </div>
+  );
+};
+
+// -> Class based Component - old
 
 const root = ReactDom.createRoot(document.getElementById("root"));
-
-root.render(parent);
+root.render(<HeaderComponent />);
